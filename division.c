@@ -1,8 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  float a=9,b=4,res;
+  float a,b,res;
+  printf("Welcome to Division\n");
+  printf("Enter first Num : ");
+  scanf("%f",&a);
+  printf("Enter Second Number : ");
+  scanf("%f",&b);
   res=a/b;
-  printf("%d",res);
+  printf("%0.2f",res);
   return 0;
 }
